@@ -1,0 +1,164 @@
+*{
+    background-color: #CACFD2 ;
+}
+.personal-Container{
+    display: flex; 
+    
+  }
+.image{ 
+    flex:30%; 
+      
+}
+.image img{
+    width: 100%;
+    height: auto;
+}
+
+.titulos{
+    flex: 70%;
+    padding-left: 60px;
+}
+.titulos p{
+font-size: 20px;
+}
+/*------------------------------------------------------*/
+.tecnologies-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+.tecnologies-info{    
+    width: 300px;
+}
+.tecnologies-info img{
+    width: 100%;
+    height: auto;
+}
+.gallery-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+.gallery-div{
+  
+   width: 300px;
+   
+      
+}
+.gallery-div>img{
+    width: 100%;
+    height: 274px;
+}
+/*--------------------------------------------------*/
+.rrss-container{
+   
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}   
+
+.rrss-image{
+    width: 300px;
+    text-align: center; 
+}
+.rrss-image img{
+    width: 100%;
+    height: auto;
+}
+
+@media only  screen and (max-width:768px){
+   .titulos h1{
+   font-size: 24px;
+   }
+   .titulos h2{
+       font-size: 18px;
+   }
+   .titulos p{
+       font-size: 14px;
+   }
+
+   .tecnologies-info h2{
+       font-size: 18px;
+   }
+   .tecnologies-info p{
+       font-size:14px;
+   }
+   .tecnologies-info {
+       width: 220px;
+   }
+   .tecnologies-info img{
+       width: 100%;
+       height: auto;
+   }
+   .gallery-div h2{
+    font-size: 18px;
+   }
+   .gallery-div p{
+    font-size:14px
+   }
+   .gallery-div{
+       width: 220px;
+   }
+   .gallery-div img{
+       width: 100%;       
+   }
+
+   .rrss-image{
+       width: 220px;
+   }
+   .rrss-image img{
+       width: 100%;
+       height: auto;
+   }
+
+}
+@media only  screen and (max-width:576px){
+    .titulos h1{
+    font-size: 18px;
+    }
+    .titulos h2{
+        font-size: 14px;
+    }
+    .titulos p{
+        font-size: 10px;
+    }
+ 
+    .tecnologies-info h2{
+        font-size: 14px;
+    }
+    .tecnologies-info p{
+        font-size:10px;
+    }
+    .tecnologies-info {
+        width: 180px;
+    }
+    .tecnologies-info img{
+        width: 100%;
+        height: auto;
+    }
+    .gallery-div h2{
+     font-size: 14px;
+    }
+    .gallery-div p{
+     font-size:10px
+    }
+    .gallery-div{
+        width: 180px;
+    }
+    .gallery-div img{
+        width: 100%;       
+    }
+ 
+    .rrss-image{
+        width: 180px;
+    }
+    .rrss-image img{
+        width: 100%;
+        height: auto;
+    }
+ 
+ }
+ 
